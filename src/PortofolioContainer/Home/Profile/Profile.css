@@ -1,0 +1,74 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-size: cover;
+    margin-top: 120px;
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.profile-details-name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.profile-details-status{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.profile-details-status h3{
+    font-size: 35px;
+    font-family: cursive;
+}
+.primary-text{
+    color:(--white);
+}
+.highlighted-text{
+    color:#F57F17;
+}
+.profile-status{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 0px 0px var(--white);
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 0 0px 0 99px;
+}
+.profile-picture-background{
+    height: 120%;
+    width: 100%;
+    background-image: url('../../../assets/Home/Foto.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 110px;
+}
+.profile-picture-background:hover{
+    transform:scale(1.07);
+    transition:1s ease-out
+}
+.colz .colz-icon i{
+    color: white;
+    padding: 20px;
+    padding-left: 0px;
+}
+.colz .colz-icon i:hover{
+    transform: scale(1.5);
+}
+.profile-options{
+    margin-top: 50px;
+}
+
